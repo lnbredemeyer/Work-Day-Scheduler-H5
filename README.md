@@ -1,9 +1,9 @@
 # Work-Day-Scheduler-H5
 ## Description
 
-- Homework one was to create a password generator.
+- Homework 5 is to create a day scheduler that will allow saving items into the local storage.
 
-- We had to manipulate the .js file to make the password generator work.
+- We had to manipulate the html and create a .js file to make the day scheduler.
 
 ## Usage
 
