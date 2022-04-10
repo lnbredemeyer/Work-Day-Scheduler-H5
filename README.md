@@ -25,5 +25,5 @@
 
 ![alt tag](https://user-images.githubusercontent.com/99215212/162600294-a97580aa-2fcf-4a6e-bfca-da4d29bfd60e.png "screenshot")
 
-- To view the new password generator, please click: https://lnbredemeyer.github.io/Work-Day-Scheduler-H5/
+- To view the day scheduler, please click: https://lnbredemeyer.github.io/Work-Day-Scheduler-H5/
 ```
