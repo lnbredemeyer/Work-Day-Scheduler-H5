@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,10 +29,54 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <div id="time-9" class="row row-cols-3 border">
+        <div data-hours=9 class="col-2 text-center border time-hour">9am</div>
+        <textarea class="col-8 form" id="9am" placeholder="Add information here"></textarea>
+        <button class="col-2 border d-flex justify-content-center align-items-center saveBtn 9"><i class="fas fa-save"></i></button>
+      </div>
+      <div id="time-10" class="row row-cols-3 border" id="table">
+        <div data-hours=10 class="col-2 text-center border time-hour">10am</div>
+        <textarea class="col-8 form" id="10am" placeholder="Add information here"></textarea>
+        <button class="col-2 border d-flex justify-content-center align-items-center saveBtn 10"><i class="fas fa-save"></i></button>
+      </div>
+      <div id="time-11" class="row row-cols-3 border">
+        <div data-hours=11 class="col-2 text-center border time-hour">11am</div>
+        <textarea class="col-8 form" id="11am" placeholder="Add information here"></textarea>
+        <button class="col-2 border d-flex justify-content-center align-items-center saveBtn 11"><i class="fas fa-save"></i></button>
+      </div>
+      <div id="time-12" class="row row-cols-3 border">
+        <div data-hours=12 class="col-2 text-center border time-hour">12pm</div>
+        <textarea class="col-8 form" id="12pm" placeholder="Add information here"></textarea>
+        <button class="col-2 border d-flex justify-content-center align-items-center saveBtn 12"><i class="fas fa-save"></i></button>
+      </div>
+      <div id="time-13" class="row row-cols-3 border">
+        <div data-hours=13 class="col-2 text-center border time-hour">1pm</div>
+        <textarea class="col-8 form" id="1pm" placeholder="Add information here"></textarea>
+        <button class="col-2 border d-flex justify-content-center align-items-center saveBtn 1"><i class="fas fa-save"></i></button>
+      </div>
+      <div id="time-14" class="row row-cols-3 border">
+        <div data-hours=14 class="col-2 text-center border time-hour">2pm</div>
+        <textarea class="col-8 form" id="2pm" placeholder="Add information here"></textarea>
+        <button class="col-2 border d-flex justify-content-center align-items-center saveBtn 2"><i class="fas fa-save"></i></button>
+      </div>
+      <div id="time-15" class="row row-cols-3 border">
+        <div data-hours=15 class="col-2 text-center border time-hour">3pm</div>
+        <textarea class="col-8 form" id="3pm" placeholder="Add information here"></textarea>
+        <button class="col-2 border d-flex justify-content-center align-items-center saveBtn 3"><i class="fas fa-save"></i></button>
+      </div>
+      <div id="time-16" class="row row-cols-3 border">
+        <div data-hours=16 class="col-2 text-center border time-hour">4pm</div>
+        <textarea class="col-8 form" id="4pm" placeholder="Add information here"></textarea>
+        <button class="col-2 border d-flex justify-content-center align-items-center saveBtn 4"><i class="fas fa-save"></i></button>
+      </div>
+      <div id="time-17" class="row row-cols-3 border">
+        <div data-hours=17 class="col-2 text-center border time-hour">5pm</div>
+        <textarea class="col-8 form" id="5pm" placeholder="Add information here"></textarea>
+        <button class="col-2 border d-flex justify-content-center align-items-center saveBtn 5"><i class="fas fa-save"></i></button>
+      </div>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
